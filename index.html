@@ -1,0 +1,444 @@
+Desafio 1: Criação de uma Página de Perfil Simples
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil do Presidente</title>
+</head>
+<body>
+    <h1>João Silva - Presidente da Empresa XYZ</h1>
+    <img src="perfil.jpg" alt="João Silva" width="200">
+    <p>João Silva é o presidente da Empresa XYZ, com mais de 20 anos de experiência no setor de tecnologia e inovação.</p>
+    <h2>Hobbies e Interesses:</h2>
+    <ul>
+        <li>Leitura</li>
+        <li>Futebol</li>
+        <li>Tecnologia</li>
+        <li>Viagens</li>
+    </ul>
+    <h2>Redes Sociais:</h2>
+    <a href="https://www.linkedin.com"><img src="linkedin.png" alt="LinkedIn" width="30"></a>
+    <a href="https://www.twitter.com"><img src="twitter.png" alt="Twitter" width="30"></a>
+    <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook" width="30"></a>
+</body>
+</html>
+Desafio 2: Criação de uma Página de Contato
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Contato</h1>
+    <form action="enviar_formulario.php" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome"><br>
+        
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        
+        <label for="endereco">Endereço:</label><br>
+        <input type="text" id="endereco" name="endereco"><br>
+        
+        <label for="cep">CEP:</label><br>
+        <input type="text" id="cep" name="cep"><br>
+        
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone"><br>
+        
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem"></textarea><br><br>
+        
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+Desafio 3: Criação de uma Página de Portfólio
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <article>
+            <h3>Projeto 1</h3>
+            <img src="projeto1.jpg" alt="Projeto 1" width="300">
+            <p>Descrição do projeto 1.</p>
+        </article>
+        <article>
+            <h3>Projeto 2</h3>
+            <img src="projeto2.jpg" alt="Projeto 2" width="300">
+            <p>Descrição do projeto 2.</p>
+        </article>
+        <article>
+            <h3>Projeto 3</h3>
+            <img src="projeto3.jpg" alt="Projeto 3" width="300">
+            <p>Descrição do projeto 3.</p>
+        </article>
+    </section>
+
+    <footer id="contato">
+        <h2>Contato</h2>
+        <p>email@example.com</p>
+    </footer>
+</body>
+</html>
+Desafio 4: Criação de uma Página de Blog com Comentários
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Blog de Tecnologia</h1>
+    </header>
+
+    <section>
+        <h2>Postagem: Como a IA está mudando o mundo</h2>
+        <p>Conteúdo da postagem sobre IA...</p>
+    </section>
+
+    <section>
+        <h2>Deixe seu comentário:</h2>
+        <form action="comentario.php" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="comentario">Comentário:</label><br>
+            <textarea id="comentario" name="comentario"></textarea><br>
+            <button type="submit">Enviar Comentário</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Comentários:</h2>
+        <p><strong>Maria:</strong> Adorei a postagem! Muito interessante.</p>
+    </section>
+</body>
+</html>
+Desafio 5: Criação de uma Página de Currículo
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de João Silva</title>
+</head>
+<body>
+    <header>
+        <h1>João Silva - Engenheiro de Computação</h1>
+    </header>
+
+    <section>
+        <h2>Informações de Contato</h2>
+        <p>Email: joao.silva@email.com</p>
+        <p>Telefone: (11) 98765-4321</p>
+    </section>
+
+    <section>
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li>Engenheiro de Software na Empresa ABC (2015-2020)</li>
+            <li>Desenvolvedor Web na Empresa XYZ (2013-2015)</li>
+            <li>Estagiário em Desenvolvimento de Software na Tech Solutions (2012-2013)</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Educação</h2>
+        <ul>
+            <li>Graduação em Engenharia da Computação - Universidade ABC (2010-2014)</li>
+            <li>Pós-graduação em Inteligência Artificial - Universidade XYZ (2016-2018)</li>
+            <li>Curso de Desenvolvimento Web - Escola de Tecnologia (2011)</li>
+        </ul>
+    </section>
+</body>
+</html>
+Desafio 6: Criação de uma Página de Agenda de Eventos
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos</title>
+</head>
+<body>
+    <header>
+        <h1>Agenda de Eventos</h1>
+    </header>
+
+    <section>
+        <h2>Eventos Futuros</h2>
+        <ul>
+            <li>
+                <strong>Workshop de Programação</strong><br>
+                Data: 25/03/2025<br>
+                Hora: 14:00<br>
+                Descrição: Workshop sobre desenvolvimento web.
+            </li>
+            <li>
+                <strong>Conferência de Tecnologia</strong><br>
+                Data: 10/04/2025<br>
+                Hora: 09:00<br>
+                Descrição: Conferência sobre as tendências tecnológicas do futuro.
+            </li>
+            <li>
+                <strong>Seminário de IA</strong><br>
+                Data: 20/04/2025<br>
+                Hora: 16:00<br>
+                Descrição: Seminário sobre Inteligência Artificial e suas aplicações.
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Eventos Passados</h2>
+        <ul>
+            <li>
+                <strong>Curso de Front-End</strong><br>
+                Data: 15/02/2025<br>
+                Hora: 10:00<br>
+                Descrição: Curso intensivo sobre desenvolvimento front-end.
+            </li>
+            <li>
+                <strong>Encontro de Tecnologia</strong><br>
+                Data: 05/03/2025<br>
+                Hora: 13:00<br>
+                Descrição: Encontro sobre inovação tecnológica.
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
+Desafio 7: Criação de uma Página de FAQ
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas Frequentes</title>
+</head>
+<body>
+    <header>
+        <h1>Perguntas Frequentes (FAQ)</h1>
+    </header>
+
+    <section>
+        <h2>1. O que é um site responsivo?</h2>
+        <p>Um site responsivo é aquele que se adapta automaticamente ao tamanho da tela em que está sendo visualizado, proporcionando uma boa experiência em dispositivos móveis e desktops.</p>
+    </section>
+
+    <section>
+        <h2>2. Como posso entrar em contato com a equipe de suporte?</h2>
+        <p>Você pode entrar em contato com nossa equipe de suporte através do formulário na página de contato ou enviando um e-mail para suporte@empresa.com.</p>
+    </section>
+
+    <section>
+        <h2>3. Quais são as formas de pagamento aceitas?</h2>
+        <p>Aceitamos pagamentos via cartão de crédito, débito, boleto bancário e PayPal.</p>
+    </section>
+
+    <section>
+        <h2>4. Como posso cancelar minha assinatura?</h2>
+        <p>Você pode cancelar sua assinatura acessando a página de configurações da sua conta ou entrando em contato com o suporte.</p>
+    </section>
+
+    <section>
+        <h2>5. Como posso recuperar minha senha?</h2>
+        <p>Para recuperar sua senha, clique no link "Esqueci minha senha" na página de login e siga as instruções enviadas por e-mail.</p>
+    </section>
+</body>
+</html>
+Desafio 8: Página de Galeria de Imagens com Tabela de Informações
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+</head>
+<body>
+    <header>
+        <h1>Galeria de Imagens</h1>
+    </header>
+
+    <section>
+        <h2>Imagens</h2>
+        <div>
+            <img src="imagem1.jpg" alt="Imagem 1" width="300">
+            <img src="imagem2.jpg" alt="Imagem 2" width="300">
+            <img src="imagem3.jpg" alt="Imagem 3" width="300">
+        </div>
+
+        <h2>Informações sobre as Imagens</h2>
+        <table border="1">
+            <tr>
+                <th>Nome</th>
+                <th>Descrição</th>
+                <th>Data</th>
+            </tr>
+            <tr>
+                <td>Imagem 1</td>
+                <td>Imagem de um pôr do sol.</td>
+                <td>01/01/2025</td>
+            </tr>
+            <tr>
+                <td>Imagem 2</td>
+                <td>Imagem de uma paisagem montanhosa.</td>
+                <td>15/02/2025</td>
+            </tr>
+            <tr>
+                <td>Imagem 3</td>
+                <td>Imagem de um campo de flores.</td>
+                <td>20/03/2025</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
+Desafio 9: Página de Podcast com Áudio e Tabela de Episódios
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast - Tecnologia em Foco</title>
+</head>
+<body>
+    <header>
+        <h1>Podcast - Tecnologia em Foco</h1>
+    </header>
+
+    <section>
+        <h2>Episódio mais recente</h2>
+        <audio controls>
+            <source src="episodio1.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Episódios Anteriores</h2>
+        <table border="1">
+            <tr>
+                <th>Título</th>
+                <th>Data</th>
+                <th>Duração</th>
+            </tr>
+            <tr>
+                <td>Episódio 1 - Introdução à IA</td>
+                <td>01/03/2025</td>
+                <td>30min</td>
+            </tr>
+            <tr>
+                <td>Episódio 2 - O Futuro da Tecnologia</td>
+                <td>05/03/2025</td>
+                <td>45min</td>
+            </tr>
+            <tr>
+                <td>Episódio 3 - A Revolução dos Dados</td>
+                <td>10/03/2025</td>
+                <td>40min</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
+Desafio 10: Locadora de Filmes
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locadora de Filmes</title>
+    <style>
+        .estrelas {
+            display: flex;
+            direction: row-reverse;
+            font-size: 30px;
+        }
+        .estrelas input[type="radio"] {
+            display: none;
+        }
+        .estrelas label {
+            color: gray;
+            cursor: pointer;
+        }
+        .estrelas input[type="radio"]:checked ~ label {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Locadora de Filmes XYZ</h1>
+    </header>
+
+    <section>
+        <h2>Filmes Disponíveis</h2>
+
+        <div>
+            <h3>Filme 1: O Poder da Inovação</h3>
+            <p>Descrição: Filme inspirador sobre o impacto da tecnologia no mundo moderno.</p>
+            <video controls>
+                <source src="trailer1.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="estrelas">
+                <input type="radio" id="estrela1" name="avaliacao1" value="5">
+                <label for="estrela1">★</label>
+                <input type="radio" id="estrela2" name="avaliacao1" value="4">
+                <label for="estrela2">★</label>
+                <input type="radio" id="estrela3" name="avaliacao1" value="3">
+                <label for="estrela3">★</label>
+                <input type="radio" id="estrela4" name="avaliacao1" value="2">
+                <label for="estrela4">★</label>
+                <input type="radio" id="estrela5" name="avaliacao1" value="1">
+                <label for="estrela5">★</label>
+            </div>
+        </div>
+
+        <div>
+            <h3>Filme 2: A Jornada Espacial</h3>
+            <p>Descrição: Uma emocionante viagem através do espaço e do desconhecido.</p>
+            <video controls>
+                <source src="trailer2.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento de vídeo.
+            </video>
+            <div class="estrelas">
+                <input type="radio" id="estrela6" name="avaliacao2" value="5">
+                <label for="estrela6">★</label>
+                <input type="radio" id="estrela7" name="avaliacao2" value="4">
+                <label for="estrela7">★</label>
+                <input type="radio" id="estrela8" name="avaliacao2" value="3">
+                <label for="estrela8">★</label>
+                <input type="radio" id="estrela9" name="avaliacao2" value="2">
+                <label for="estrela9">★</label>
+                <input type="radio" id="estrela10" name="avaliacao2" value="1">
+                <label for="estrela10">★</label>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
